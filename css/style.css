@@ -60,6 +60,14 @@ h5,
     font-weight: bold !important;
 }
 
+.ColorNuevoFB {
+    color: #40D0F5;
+}
+
+.puntitoCool {
+    color: #40D0F5;
+}
+
 .color-black-opacity-5 {
     color: rgba(0, 0, 0, 0.5);
 }
