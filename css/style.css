@@ -65,7 +65,15 @@ h5,
 }
 
 .puntitoCool {
-    color: #40D0F5;
+    color: #FDEE21;
+}
+
+.colorOverload {
+    color: #666666;
+}
+
+.colorSky {
+    color: #3FA9F5;
 }
 
 .color-black-opacity-5 {
@@ -380,7 +388,7 @@ h5,
 }
 
 .ul-check.success li:before {
-    color: #8bc34a;
+    color: #FDEE21;
 }
 
 .ul-check.primary li:before {
