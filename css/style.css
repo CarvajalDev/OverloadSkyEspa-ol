@@ -2687,7 +2687,7 @@ h5,
 } 
 #generic_price_table{
 	margin: 50px 0 50px 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .row .table{
     padding: 28px 0;
@@ -2722,13 +2722,13 @@ h5,
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
-    font-family: "Raleway",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 28px;
     font-weight: 400;
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
-    text-transform: uppercase;
+    
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag{
@@ -2741,14 +2741,14 @@ h5,
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
     display: inline-block;
-    font-family: "Lato",sans-serif;
+    font-family: "Icomoon",sans-serif;
     font-size: 28px;
     font-weight: 400;
     vertical-align: middle;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency{
-    font-family: "Lato",sans-serif;
+    font-family: "Icomoon",sans-serif;
     font-size: 60px;
     font-weight: 300;
     letter-spacing: -2px;
@@ -2759,14 +2759,14 @@ h5,
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent{
     display: inline-block;
-    font-family: "Lato",sans-serif;
+    font-family: "Icomoon",sans-serif;
     font-size: 24px;
     font-weight: 400;
     vertical-align: bottom;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .month{
-    font-family: "Lato",sans-serif;
+    font-family: "Icomoon",sans-serif;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 3px;
@@ -2780,7 +2780,7 @@ h5,
 }
 
 #generic_price_table .generic_content .generic_feature_list ul li{
-	font-family: "Lato",sans-serif;
+	font-family: "Montserrat",sans-serif;
 	font-size: 18px;
 	padding: 15px 0;
 	transition: all 0.3s ease-in-out 0s;
@@ -2807,12 +2807,12 @@ h5,
 	-o-border-radius: 50px;
 	-webkit-border-radius: 50px;
     display: inline-block;
-    font-family: "Lato",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 18px;
     outline: medium none;
     padding: 12px 30px;
     text-decoration: none;
-    text-transform: uppercase;
+    
 }
 
 #generic_price_table .generic_content,
@@ -2859,7 +2859,7 @@ h5,
 @media (min-width: 1200px) {
 }
 #generic_price_table_home{
-	 font-family: 'Raleway', sans-serif;
+	 font-family: 'Icomoon', sans-serif;
 }
 
 .text-center h1,
@@ -2953,7 +2953,8 @@ h5,
 	height: 2px;
 	background: #ddd;
 	margin: 50px auto;
-	line-height: 2px;
+    line-height: 2px;
+    
 }
 #generic_price_table_home .itemname{
 	text-align: center;
@@ -2968,7 +2969,6 @@ h5,
     text-align: center;
     font-size: 20px;
     padding-top: 5px;
-    text-transform: uppercase;
     display: inline-block;
 }
 #generic_price_table_home .footer{
@@ -2997,7 +2997,7 @@ h5,
     outline-width: medium ;
     padding: 10px;
     text-align: center;
-    text-transform: uppercase;
+    
 }
 .bottom_btn{
 	background-color: #333333;
@@ -3007,7 +3007,7 @@ h5,
     margin: 60px auto 20px;
     padding: 10px 25px;
     text-align: center;
-    text-transform: uppercase;
+    
 }
 .demo-button:hover{
 	background-color: #666;
@@ -3019,4 +3019,40 @@ h5,
 	background-color: #666;
 	color: #FFF;
 	text-decoration:none;
+}
+@media(max-width:480px) {
+	ul.partners-icon li i {
+		font-size: 2em;
+	}
+	.popup {
+		margin: 8em 2em;
+	}
+	.popup iframe {
+		height: 190px;
+	}
+	.inner-banner {
+		height: 150px;
+	}
+	.banner-text {
+		padding: 25vw 0 8vw;
+	}
+	.login-icon {
+		right: 13.5%;
+	}
+	.information p {
+		font-size: 14px;
+	}
+	.information span.fa {
+		font-size: 20px;
+	}
+}
+ul.partners-icon li span.fa {
+    font-size: 3em;
+    color: #eee;
+}
+.partners{
+	background: #40D0F5;
+}
+.partners h3.heading {
+	color: #fff;
 }
